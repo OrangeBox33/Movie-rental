@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ТП</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles/style.css">
+ </head>
+<body>
+
+    <div id="main" class="search">
+
+        <div class="logo">
+            <img src="img/svg/logo-tp.svg" alt="logo" />
+        </div>
+
+        <div class="form" id="input-form">
+            <form method="post" autocomplete="off">
+                <label><img id="loupe" src="img/svg/loupe.svg" alt="Описание изображения" /></label>
+                <input  class="input" name="text" placeholder="Поиск фильмов по жанрам и актерам" />
+                <span id="close"></span>
+                
+            </form>
+            <div id="underscore"></div>
+        
+        </div>
+
+
+        <div class="history"></div>
+
+        <div id='loader'><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+        
+
+
+        <div id='films' class='films'>
+            <h2></h2>
+            <div class="pictures"></div>
+        </div>
+
+        <div class="noResult">
+            <p>Мы не поняли о чем речь ¯\_(ツ)_/¯</p>
+        </div>
+        
+    </div>
+    <div class="footer">
+        <footer>© 2019 Тинькофф Прокат></footer> 
+    </div>
+</body>
+
+<script src="js/file.js"></script>
+
+</html>
